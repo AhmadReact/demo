@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-pos{
+
+  background-image: url("/src/assets/wave.gif");
+}
+
+
+a.active{
+  text-decoration: underline;
+}
